@@ -5,6 +5,8 @@ To do this, you need to delete a few map and chunkfiles. Since there a quite a f
 
 ***BACKUP YOUR SAVE before you do anything. I am not responsible for you loosing 100 hours of progress.***
 
+You need python3 in order to run this. A simple *python clearMap.py* should do the trick.
+
 ## Step One
 Navigate to the [Zomboid Map Project](https://map.projectzomboid.com/)
 On the left side, open the Map Coordinates tab.
