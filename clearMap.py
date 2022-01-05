@@ -2,15 +2,15 @@ import os
 
 saveFolder = input('What save do you want to edit?: ')
     
-startCoordX = input('Enter the first coordinate: ')
-startCoordY = input('Enter the seocnd coordinate: ')
-endCoordX = input('Enter the first coordinate: ')
-endCoordY = input('Enter the seocnd coordinate: ')
+startCoordX = int(input('Enter the first coordinate: '))
+startCoordY = int(input('Enter the seocnd coordinate: '))
+endCoordX = int(input('Enter the first coordinate: '))
+endCoordY = int(input('Enter the seocnd coordinate: '))
 
-startchunkX = input('Enter the first chunk number: ')
-startChunkY = input('Enter the second chunk number: ')
-endChunkX = input('Enter the first chunk number: ')
-endChunkY = input('Enter the second chunk number: ')
+startChunkX = int(input('Enter the first chunk number: '))
+startChunkY = int(input('Enter the second chunk number: '))
+endChunkX = int(input('Enter the first chunk number: '))
+endChunkY = int(input('Enter the second chunk number: '))
 
 files = os.listdir(saveFolder)
 
