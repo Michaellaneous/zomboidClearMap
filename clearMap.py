@@ -2,10 +2,10 @@ import os
 
 saveFolder = input('What save do you want to edit?: ')
     
-startCoordX = int(input('Enter the first coordinate: '))
-startCoordY = int(input('Enter the seocnd coordinate: '))
-endCoordX = int(input('Enter the first coordinate: '))
-endCoordY = int(input('Enter the seocnd coordinate: '))
+startCoordX = int((int(input('Enter the first coordinate: ')))/10)
+startCoordY = int((int(input('Enter the second coordinate: ')))/10)
+endCoordX = int((int(input('Enter the first coordinate: ')))/10)
+endCoordY = int((int(input('Enter the second coordinate: ')))/10)
 
 startChunkX = int(input('Enter the first chunk number: '))
 startChunkY = int(input('Enter the second chunk number: '))
